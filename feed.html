@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RE Tech</title>
+	<link rel="icon"  href="RE Icon.png">
+	<style >
+		header{
+			background-color: black;
+			color:white;
+			text-align: center;
+			padding:2px;
+			width:99%;
+			
+		}
+		section{
+			background-color: white;
+			float: left;
+			width: 70%;
+			height:100%;
+			padding-left: 10px;
+
+		}
+		nav{
+			float: left;
+			background-color: white;
+			width: auto;
+			height:100%;
+		}
+		table, td, tr{
+			
+			border: 1px solid;
+			border-collapse: collapse;
+			background-color: black;
+			color: white;
+		}
+		footer {
+			background-color: black;
+			color :white;
+			clear:both;
+			text-align: center;
+			padding: 30px;
+			font-family: Roboto;
+		}
+		a#arti{
+			color:white;
+		}
+		p.article{
+			line-height: 1.8;
+
+		}
+	</style>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<script >
+		window.onload = function() {
+    document.getElementById("load").play();
+}
+	</script>
+</head>
+<body>
+	<audio id="load" src="insight.mp3"></audio>
+	<header>
+		<a href="home.html">
+			<img src="Logo RE Tech w.png" height=100px>
+		</a>
+	</header>
+	<nav>
+		<h3 style="font-family: Roboto">Articles</h3>
+		<br>
+		<table>
+			<tr>
+				<td>
+					<a id="arti" href="customRom.html" style="font-family: Roboto">What is custom roms?</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a id="arti" href="slowPhone.html" style="font-family: Roboto">Your phone getting slow?</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a id="arti" href="pixel4.html" style="font-family: Roboto">Pixel 4. Is it any good?</a>
+				</td>
+			</tr>
+		</table>
+	</nav>
+	<div style='background-color: black;'>
+	<section >
+		<h3 style="font-family: Roboto">FEEDBACK</h3><br>
+		<p class="article" style="font-family: Roboto" align=”justify”>We would love to get feedback from you. Please fill the form below.
+		</p>
+		<form method="POST">
+			<p class="article" style="font-family: Roboto" align=”justify”>Email:</p>
+			<input type="email" name="email">
+			<p class="article" style="font-family: Roboto" align=”justify”>Feedback:</p>
+			<textarea name="feedback" rows="10" cols="50"></textarea><br><br><br>
+			<input type="submit" name="Submit">
+			<input type="reset" name="Clear">
+		</form>
+		<br>
+	</section>
+	</div>
+	<footer>
+			Copyright &copy; Rising Executor 2019 - &infin;
+	</footer>
+</body>
+</html>
